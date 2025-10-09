@@ -100,12 +100,13 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["39.97.161.128"];
-pub const RS_PUB_KEY: &str = "gRP1LZ3P4dMEatpfCA4qfNVTETTCmmn7cPkK+uX3HVk=";
-pub const RENDEZVOUS_PORT: i32 = 56336;
-pub const RELAY_PORT: i32 = 56337;
-pub const WS_RENDEZVOUS_PORT: i32 =56338;
-pub const WS_RELAY_PORT: i32 = 56339;
+
+pub const RENDEZVOUS_SERVERS: &[&str] = &["156.252.60.85"];
+pub const RS_PUB_KEY: &str = "39iCJusN1Mh+H7OqXB8i10yeRlfG2ytJbtBN5y3CQhM=";
+pub const RENDEZVOUS_PORT: i32 = 19856;
+pub const RELAY_PORT: i32 = 19857;
+pub const WS_RENDEZVOUS_PORT: i32 =19858;
+pub const WS_RELAY_PORT: i32 = 19859;
 
 macro_rules! serde_field_string {
     ($default_func:ident, $de_func:ident, $default_expr:expr) => {
